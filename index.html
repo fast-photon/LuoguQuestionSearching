@@ -1,14 +1,64 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>洛谷问题检索</title>
-		<link rel="stylesheet" type="text/css" href="css/common.css">
-	</head>
-	<body>
-		<h1>洛谷问题检索</h1>
-		由 <a href="https://www.luogu.com.cn/user/302805">fast_photon</a> 和 <a href="https://www.luogu.com.cn/user/357163">Respons_</a> 共同开发。<br/> 
-		在检索时您可以使用浏览器自带的搜索，并在其中输入最主要的关键词。<br/>
-		<h2><a href="html/studying.html">学术问题检索</a></h2> <br/> 
-		<h2><a href="html/communication.html">社区问题检索</a></h2>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>洛谷问题检索</title>
+</head>
+<style>
+</style>
+<script>
+	function jump_to_acdam(){
+		window.location.href="https://fast-photon.github.io/LuoguQuestionSearching/html/studying.html";
+	}
+	function jump_to_social(){
+		window.location.href="https://fast-photon.github.io/LuoguQuestionSearching/html/communication.html";
+	}
+	function jump_to_home(){
+		window.location.href="https://fast-photon.github.io/LuoguQuestionSearching/index.html";
+	}
+</script>
+<body class="body">
+	<div class="title" cellpadding="10px" cellspacing="0px">
+		<div class="center">
+			<h1>学术问题版面</h1>
+		</div>
+		<div class="toolbar">
+			<input type="button" value="首页" onclick="javascript:jump_to_home()">
+			<input type="button" value="学术问题" onclick="javascript:jump_to_acdam()">
+			<input type="button" value="社区问题" onclick="javascript:jump_to_social()">
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="card">
+		<div class="center">
+			<h2>最近的帖子</h2>
+		</div>
+		<h3>洛谷日报</h3>
+		<div class="discussion">
+			<a class="lg-fg-red" href="https://www.luogu.com.cn/user/100325">peterwuyihong</a>
+			:
+			<a class="lg-link-blue" href="https://www.luogu.com.cn/discuss/47327">【日报#404】区间 rank 的 N 种解法，你都会了吗</a>
+		</div>
+		<h3>问题模块</h3>
+		<div>
+			因为 <a class="lg-fg-blue" href="https://www.luogu.com.cn/user/468574">Hubert2147483648</a>
+			还不太会使用爬虫，这个区域暂时不能开放，但仍感谢他的贡献
+		</div>
+	</div>
+	<footer>
+		<p class="center">
+		developed by 
+		<a href="https://www.luogu.com.cn/user/302805">fast_photon</a>
+		&
+		<a href="https://www.luogu.com.cn/user/357163">Respons_</a>
+		</p>
+	</footer>
+</body>
 </html>
