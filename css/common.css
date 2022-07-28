@@ -1,15 +1,105 @@
+h1{
+	color: white;
+}
+p{
+	color:black;
+	font-size:10px;
+}
+h2{
+	font-size: 25px;
+}
+h3{
+	font-size: 20px;
+}
+input[type="button" i]{
+	font-size: 20px;
+	width: 33.3333%;
+	height: 3em;
+	background-color: #3498DB;
+	color: white;
+	font-size: 14px;
+	outline: none;
+	border: 0;
+	transition: all 0.3s ease;
+}
+input[type="button" i]:hover{
+	background: rgba(10, 117, 216, 0.4);
+	transition: all 0.3s ease;
+}
+.lg-fg-gray {
+	color: #BFBFBF !important;
+}
+.lg-fg-blue {
+	color: #0E90D2 !important;
+}
+.lg-fg-green {
+	color: #5EB95E !important;
+}
+.lg-fg-orange {
+	color: #E67E22 !important;
+}
+.lg-fg-red {
+	color: #E74C3C !important;
+}
+.lg-fg-purple {
+	color: #8E44AD !important;
+}
+.lg-link-blue {
+	color: #3498DB !important;
+}
+.body{
+	background: rgba(239, 239, 239, 1);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.center{
+	text-align: center;
+}
+.title{
+	background-color: #3498DB;
+	width:99%;
+	top:0;
+	color: white;
+	position:fixed;
+	display:block;
+	transition: all 0.3s ease;
+}
+.title:hover{
+	box-shadow: 3px 3px 3px #cfcfcf;
+	transition: all 0.3s ease;
+}
+.subtitle{
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px !important;
+	background: rgba(255,255,255,1)!important;
+}
+.card{
+	padding: 10px;
+	background: rgba(255,255,255,1)!important;
+	border-radius: 15px 15px 15px 15px !important;
+	transition: all 0.3s ease;
+}
+.card:hover{
+	box-shadow: 3px 3px 3px #cfcfcf;
+	transition: all 0.3s ease;
+}
+.toolbar{
+	background: rgba(0,0,0,0);
+	font-size: 0;
+}
+.discussion{
+	padding: 12px;
+	height: 2em;
+	display:inline-flex;
+	background: rgba(252,252,252,1)!important;
+	border-radius: 15px 15px 15px 15px !important;
+	border: 1px solid #0E90D2;
+	transition: all 0.3s ease;
+}
+.discussion:hover{
+	box-shadow: 3px 3px 3px #cfcfcf;
+}
 a {
 	text-decoration: none;
-}
-a:link{
-	color: blue;
-}
-a:visited{
-	color: blue;
-}
-a:hover{
-	color: aqua;
-}
-a:active{
-	color: aqua;
 }
