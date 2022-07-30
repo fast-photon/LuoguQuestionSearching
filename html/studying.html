@@ -4,12 +4,35 @@
 		<title>学术问题检索</title>
 		<link rel="stylesheet" type="text/css" href="../css/common.css">
 	</head>
-	<body>
-		<h1>学术问题检索</h1>
-		<a href="../index.html">返回主页</a> <br/>
-		<a href="https://studyingfather.blog.luogu.org/undefined-behavior">O2不是优化吗，本来好好的程序开了就挂了？</a>（O(2)，UB，未定义行为）<br/>
-		<a href="https://lglg.top/show.php?url=https://www.luogu.com.cn/discuss/464667">String有地址吗?</a> <br/>
-		<a href="https://lglg.top/show.php?url=https://www.luogu.com.cn/discuss/464938">STL快排 sort和手写快排谁更快？<br/>
-		<a href="https://lglg.top/show.php?url=https://www.luogu.com.cn/discuss/466429">快读快写、scanf/printf和cin/cout的时间？</a>	
+	<script>
+		function jump_to_acdam(){
+			window.location.href="https://fast-photon.github.io/LuoguQuestionSearching/html/studying.html";
+		}
+		function jump_to_social(){
+			window.location.href="https://fast-photon.github.io/LuoguQuestionSearching/html/communication.html";
+		}
+		function jump_to_home(){
+			window.location.href="https://fast-photon.github.io/LuoguQuestionSearching/index.html";
+		}
+	</script>
+	<body class="body">
+		<div class="title" cellpadding="10px" cellspacing="0px">
+			<div class="center">
+				<h1>学术问题</h1>
+			</div>
+			<div class="toolbar">
+				<input type="button" value="首页" onclick="javascript:jump_to_home()">
+				<input type="button" value="学术问题" onclick="javascript:jump_to_acdam()">
+				<input type="button" value="社区问题" onclick="javascript:jump_to_social()">
+			</div>
+		</div>
+		<br><br><br><br><br><br><br>
+		<div class="card">
+			<div class="discussion">
+				<a class="lg-fg-red" href="https://www.luogu.com.cn/user/100325">StudyingFather</a>
+				:
+				<a href="https://studyingfather.blog.luogu.org/undefined-behavior" class="lg-fg-blue">O2不是优化吗，本来好好的程序开了就挂了？</a>（O(2)，UB，未定义行为）<br/>
+			</div>
+		</div>
 	</body>
 </html>
